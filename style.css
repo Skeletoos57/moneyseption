@@ -1,0 +1,67 @@
+#title {
+    font-size: 60px;
+    font-family: fantasy;
+    color: white;
+}
+
+#subtitle {
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+}
+
+#moneyDisplay {
+    font-size: 15px;
+    margin-left: 1250px;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/vectors/dark-brick-wall-background-neon-color-vector-illustration-vector-id993202144?k=20&m=993202144&s=170667a&w=0&h=SJhA7i-JbXgscFFQsNVumCJxW-bDlW6YVgXnMMgX3Hk=");
+}
+
+* {
+    color: white;
+    font-family: arial;
+}
+
+#firstMoney, #secondMoney, #thirdMoney {
+    font-size: 70px;
+    color: black;
+    margin: 15px;
+    border: solid 3px red;
+    border-radius: 10px;
+    /* display: none; */
+}
+
+#start, #random, #info {
+    font-size: 30px;
+    color: black;
+    border: solid 3px red;
+    border-radius: 10px;
+}
+
+#firstNumber, #secondNumber, #thirdNumber {
+    font-size: 35px;
+    color: black;
+    margin: 15px;
+    border: solid 3px red;
+    border-radius: 10px;
+    width: 5%;
+}
+
+#apuesta {
+    font-size: 35px;
+    color: black;
+    margin: 15px;
+    border: solid 3px red;
+    border-radius: 10px;
+    width: 10%;
+}
+
+#principalGame {
+    display: none;
+}
+
+#information-page {
+    display: none;
+}

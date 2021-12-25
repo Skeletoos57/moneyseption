@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>MONEYSEPTION</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <header>
+                <div id="moneyDisplay">
+                    <p><b>$ 0</b></p>
+                </div>
+            </header>
+            <!-- Principal -->
+            <div id="principal">
+                <h1 id="title">| MONEYSEPTION |</h1>
+                <br>
+                <h2 id="subtitle"> Apuestas simuladas ¡GRATUITAS!</h2>
+                <div id="buttons">
+                    <p>Empiece a jugar. Elije su dinero inicial ↓</p>
+                    <input type="button" id="firstMoney" value="$2000" onclick="first()"><input type="button" id="secondMoney" value="$4500" onclick="second()"><input type="button" id="thirdMoney" value="$7000" onclick="third()">
+                    <br>
+                    <input type="button" id="info" value="Informacion" onclick="info()">
+                </div>
+            </div>
+
+            <!-- Principal Game -->
+            <div id="principalGame">
+                <h2>Elije 3 numeros para apostar<br>(del 0 al 100)</h2>
+                <div id="chooser"></div>
+                <div id="inputNumbers">
+                    <input type="number" id="firstNumber" value=0><input type="number" id="secondNumber" value=0><input type="number" id="thirdNumber" value=0>
+                    <p><b>¿Cuanto apostaras?:</b><br><input type="number" id="apuesta" value=0></p>
+                </div>
+                <div id="operators">
+                    <input type="button" id="random" value="Generar" onclick="generate()">
+                    <input type="button" id="start" value="Apostar" onclick="start()">
+                    <input type="button" id="info" value="Info." onclick="info()">
+                </div>
+            </div>
+
+        </center>
+
+        <!-- Information Page (included in the main page) -->
+        <div id="information-page">
+            <center>
+            <h1>MONEYSEPTION -- Un simulador de apuestas gratuito.</h1>
+            <br>
+            <p><b>
+                MoneySeption es un sitio web para jugar a hacer apuestas de forma totalmente<br>
+                gratuita. NUNCA tendras ni tienes que meterle dinero para juga, tener ventajas<br>
+                o algo similar, esta hecho solo para divertirse. Mas actualizaciones saldran<br>
+                con el tiempo y el juego sera mas completo y divertido! Espero que te haya gustado.<br>
+            </p></b>
+            <br>
+            <h1>-- CREDITOS --</h1>
+            <br>
+            <p><b>
+                Programado por Thiago Grillo (Skeletoos57) en un plazo de 1 semana, por diversion<br>
+                y aprendizaje.<br>
+                <br>
+                Version 1.0 PVO (Primera Version Oficial)
+            </p></b>
+            <br>
+            <input type="button" id="back" value="Volver" style="font-size: 30px;color: black;border: solid 3px red;border-radius: 10px;margin-left: 50px;" onclick="returnToGame()">
+        </center>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
